@@ -53,6 +53,7 @@ namespace Fast_Reading_Course_Exercise1
                         }
                     }
                     Console.Write("\n\n");
+                    Console.ReadKey();
                 }
                 Console.WriteLine("\nPress any key to repeat. Press escape to exit...");
             } while (Console.ReadKey().Key != ConsoleKey.Escape);
